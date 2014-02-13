@@ -1,0 +1,25 @@
+SOURCES=deadlock1.c\
+	deadlock2.c\
+	deadlock3.c\
+	deadlock4.c\
+	deadlock5.c\
+	diffusion.c\
+	diffusion2.c\
+	diffusion2_nd.c\
+	diffusion2_scaledown.c\
+	integrate_mw.c\
+	integrate_nb.c\
+	integrate_spec.c\
+	mat_mul.c\
+	monte.c\
+	steve-mat-mul.c
+
+EXECUTABLES=$(SOURCES:.c=.exe)
+
+all: $(SOURCES) $(EXECUTABLES)
+
+clean:
+	rm -rf $(EXECUTABLES)
+
+%.exe: %.c
+	$(CC) $< -o $@

@@ -1,0 +1,9 @@
+TraceLength 3
+Number of Transitions 7
+1 0 Send 0 { };0 0 Recv -1 { };
+2 0 Send 0 { };0 1 Recv 2 { 0 };
+0 2 Finalize { 1 };1 1 Finalize { 0 };2 1 Finalize { 0 };
+
+[1, 0] [0, 0]
+[2, 0] [0, 1]
+[2, 0] [0, 0]
