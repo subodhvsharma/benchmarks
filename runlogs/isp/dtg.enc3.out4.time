@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 3600s /users/joshi/mopper/isp/isp-dir/bin/isp -p 10190 -z T -n 5 /users/joshi/mopper/benchmarks/isp-pred-tests/regression/dtg.exe
+real 0.20
+user 0.04
+sys 0.05

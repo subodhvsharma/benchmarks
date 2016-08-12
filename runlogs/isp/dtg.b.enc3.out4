@@ -1,0 +1,65 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/dtg.exe 
+Number Procs:   5
+Server:         localhost:10180
+Blocking Sends: Enabled
+-----------------------------------------
+Started Process: 10522
+INTERLEAVING :1
+(2) Finished normally
+(3) Finished normally
+(1) Finished normally
+(4) Finished normally
+Started Process: 10529
+(0) Finished normally
+INTERLEAVING :2
+(1) Finished normally
+Started Process: 10536
+(2) Finished normally
+(3) Finished normally
+(4) Finished normally
+(0) Finished normally
+INTERLEAVING :3
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   EXIT CODE: 1
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+-----------------------------------------
+Transition list for 0
+0 o=1 i=0 rank=0 Recv regression/dtg.c:40 src=-1 rtag=0{[0, 1]} {}	 Matched [2,1]
+1 o=38 i=1 rank=0 Send regression/dtg.c:42 dest=3 stag=0{} {}
+
+Transition list for 1
+0 o=2 i=0 rank=1 Send regression/dtg.c:53 dest=0 stag=0{} {}
+
+Transition list for 2
+0 o=3 i=0 rank=2 Recv regression/dtg.c:62 src=-1 rtag=0{[2, 1]} {}	 Matched [4,0]
+1 o=21 i=1 rank=2 Send regression/dtg.c:63 dest=0 stag=0{[2, 2]} {}	 Matched [0,0]
+2 o=39 i=2 rank=2 Finalize regression/dtg.c:86{} {}
+No resource leaks detected, 3 MPI calls trapped.
+
+Transition list for 3
+0 o=4 i=0 rank=3 Recv regression/dtg.c:70 src=1 rtag=0{} {}
+
+Transition list for 4
+0 o=5 i=0 rank=4 Send regression/dtg.c:77 dest=2 stag=0{[4, 1]} {}	 Matched [2,0]
+1 o=22 i=1 rank=4 Finalize regression/dtg.c:86{} {}
+No resource leaks detected, 2 MPI calls trapped.
+
+No matching MPI call found!
+Detected a DEADLOCK in interleaving 3
+-----------------------------------------
+-----------------------------------------
+ISP detected deadlock!!!
+Total Explored Interleavings: 3
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

@@ -1,0 +1,5 @@
++ timeout --foreground -k 1s 1200s /users/joshi/simgrid-3.13/installed/bin/smpirun -hostfile myhostfile -platform /users/joshi/simgrid-3.13/SimGrid-3.13/examples/platforms/cluster.xml -wrapper /users/joshi/simgrid-3.13/SimGrid-3.13/bin/simgrid-mc --cfg=smpi/send-is-detached-thresh:0 --cfg=smpi/privatize-global-variables:1 --cfg=model-check/max-depth:100000 -np 32 ./heat-errors.smpi
+
+real	0m1.675s
+user	0m1.071s
+sys	0m0.351s

@@ -1,0 +1,306 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/GE.exe 
+Number Procs:   32
+Server:         localhost:10098
+Blocking Sends: Disabled
+-----------------------------------------
+Started Process: 15169
+INTERLEAVING :1
+Started Process: 15203
+INTERLEAVING :2
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   EXIT CODE: 139
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Segmentation fault (signal 11)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+EMPTY BUFFER id is 31 !!!!!!!
+Transition list for 0
+0 o=1 i=0 rank=0 Barrier regression/GE.c:302 count=1{[0, 1]} {}
+1 o=33 i=1 rank=0 Barrier regression/GE.c:306 count=2{[0, 2][0, 3][0, 4][0, 5][0, 6][0, 7][0, 8][0, 9][0, 10][0, 11][0, 12][0, 13][0, 14][0, 15][0, 16][0, 17][0, 18][0, 19][0, 20][0, 21][0, 22][0, 23][0, 24][0, 25][0, 26][0, 27][0, 28][0, 29][0, 30][0, 31][0, 32][0, 33]} {}
+2 o=65 i=2 rank=0 Send regression/GE.c:202 dest=1 stag=200{} {}	 Matched [1,2]
+3 o=97 i=3 rank=0 Send regression/GE.c:202 dest=2 stag=200{} {}	 Matched [2,2]
+4 o=98 i=4 rank=0 Send regression/GE.c:202 dest=3 stag=200{} {}	 Matched [3,2]
+5 o=99 i=5 rank=0 Send regression/GE.c:202 dest=4 stag=200{} {}	 Matched [4,2]
+6 o=100 i=6 rank=0 Send regression/GE.c:202 dest=5 stag=200{} {}	 Matched [5,2]
+7 o=101 i=7 rank=0 Send regression/GE.c:202 dest=6 stag=200{} {}	 Matched [6,2]
+8 o=102 i=8 rank=0 Send regression/GE.c:202 dest=7 stag=200{} {}	 Matched [7,2]
+9 o=103 i=9 rank=0 Send regression/GE.c:202 dest=8 stag=200{} {}	 Matched [8,2]
+10 o=104 i=10 rank=0 Send regression/GE.c:202 dest=9 stag=200{} {}	 Matched [9,2]
+11 o=105 i=11 rank=0 Send regression/GE.c:202 dest=10 stag=200{} {}	 Matched [10,2]
+12 o=106 i=12 rank=0 Send regression/GE.c:202 dest=11 stag=200{} {}	 Matched [11,2]
+13 o=107 i=13 rank=0 Send regression/GE.c:202 dest=12 stag=200{} {}	 Matched [12,2]
+14 o=108 i=14 rank=0 Send regression/GE.c:202 dest=13 stag=200{} {}	 Matched [13,2]
+15 o=109 i=15 rank=0 Send regression/GE.c:202 dest=14 stag=200{} {}	 Matched [14,2]
+16 o=110 i=16 rank=0 Send regression/GE.c:202 dest=15 stag=200{} {}	 Matched [15,2]
+17 o=111 i=17 rank=0 Send regression/GE.c:202 dest=16 stag=200{} {}	 Matched [16,2]
+18 o=112 i=18 rank=0 Send regression/GE.c:202 dest=17 stag=200{} {}	 Matched [17,2]
+19 o=113 i=19 rank=0 Send regression/GE.c:202 dest=18 stag=200{} {}	 Matched [18,2]
+20 o=114 i=20 rank=0 Send regression/GE.c:202 dest=19 stag=200{} {}	 Matched [19,2]
+21 o=115 i=21 rank=0 Send regression/GE.c:202 dest=20 stag=200{} {}	 Matched [20,2]
+22 o=116 i=22 rank=0 Send regression/GE.c:202 dest=21 stag=200{} {}	 Matched [21,2]
+23 o=117 i=23 rank=0 Send regression/GE.c:202 dest=22 stag=200{} {}	 Matched [22,2]
+24 o=118 i=24 rank=0 Send regression/GE.c:202 dest=23 stag=200{} {}	 Matched [23,2]
+25 o=119 i=25 rank=0 Send regression/GE.c:202 dest=24 stag=200{} {}	 Matched [24,2]
+26 o=120 i=26 rank=0 Send regression/GE.c:202 dest=25 stag=200{} {}	 Matched [25,2]
+27 o=121 i=27 rank=0 Send regression/GE.c:202 dest=26 stag=200{} {}	 Matched [26,2]
+28 o=122 i=28 rank=0 Send regression/GE.c:202 dest=27 stag=200{} {}	 Matched [27,2]
+29 o=123 i=29 rank=0 Send regression/GE.c:202 dest=28 stag=200{} {}	 Matched [28,2]
+30 o=124 i=30 rank=0 Send regression/GE.c:202 dest=29 stag=200{} {}	 Matched [29,2]
+31 o=125 i=31 rank=0 Send regression/GE.c:202 dest=30 stag=200{} {}	 Matched [30,2]
+32 o=126 i=32 rank=0 Send regression/GE.c:202 dest=31 stag=200{} {}	 Matched [31,3]
+33 o=127 i=33 rank=0 Recv regression/GE.c:208 src=-1 rtag=200{[0, 34]} {}	 Matched [1,3]
+34 o=160 i=34 rank=0 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 1
+0 o=2 i=0 rank=1 Barrier regression/GE.c:302 count=1{[1, 1]} {}
+1 o=34 i=1 rank=1 Barrier regression/GE.c:306 count=2{[1, 2]} {}
+2 o=66 i=2 rank=1 Recv regression/GE.c:208 src=-1 rtag=200{[1, 3][1, 4][1, 5][1, 6][1, 7][1, 8][1, 9][1, 10][1, 11][1, 12][1, 13][1, 14][1, 15][1, 16][1, 17][1, 18][1, 19][1, 20][1, 21][1, 22][1, 23][1, 24][1, 25][1, 26][1, 27][1, 28][1, 29][1, 30][1, 31][1, 32][1, 33][1, 34]} {}	 Matched [0,2]
+3 o=128 i=3 rank=1 Send regression/GE.c:202 dest=0 stag=200{} {}	 Matched [0,33]
+4 o=129 i=4 rank=1 Send regression/GE.c:202 dest=2 stag=200{} {}	 Matched [2,3]
+5 o=130 i=5 rank=1 Send regression/GE.c:202 dest=3 stag=200{} {}	 Matched [3,3]
+6 o=131 i=6 rank=1 Send regression/GE.c:202 dest=4 stag=200{} {}	 Matched [4,3]
+7 o=132 i=7 rank=1 Send regression/GE.c:202 dest=5 stag=200{} {}	 Matched [5,3]
+8 o=133 i=8 rank=1 Send regression/GE.c:202 dest=6 stag=200{} {}	 Matched [6,3]
+9 o=134 i=9 rank=1 Send regression/GE.c:202 dest=7 stag=200{} {}	 Matched [7,3]
+10 o=135 i=10 rank=1 Send regression/GE.c:202 dest=8 stag=200{} {}	 Matched [8,3]
+11 o=136 i=11 rank=1 Send regression/GE.c:202 dest=9 stag=200{} {}	 Matched [9,3]
+12 o=137 i=12 rank=1 Send regression/GE.c:202 dest=10 stag=200{} {}	 Matched [10,3]
+13 o=138 i=13 rank=1 Send regression/GE.c:202 dest=11 stag=200{} {}	 Matched [11,3]
+14 o=139 i=14 rank=1 Send regression/GE.c:202 dest=12 stag=200{} {}	 Matched [12,3]
+15 o=140 i=15 rank=1 Send regression/GE.c:202 dest=13 stag=200{} {}	 Matched [13,3]
+16 o=141 i=16 rank=1 Send regression/GE.c:202 dest=14 stag=200{} {}	 Matched [14,3]
+17 o=142 i=17 rank=1 Send regression/GE.c:202 dest=15 stag=200{} {}	 Matched [15,3]
+18 o=143 i=18 rank=1 Send regression/GE.c:202 dest=16 stag=200{} {}	 Matched [16,3]
+19 o=144 i=19 rank=1 Send regression/GE.c:202 dest=17 stag=200{} {}	 Matched [17,3]
+20 o=145 i=20 rank=1 Send regression/GE.c:202 dest=18 stag=200{} {}	 Matched [18,3]
+21 o=146 i=21 rank=1 Send regression/GE.c:202 dest=19 stag=200{} {}	 Matched [19,3]
+22 o=147 i=22 rank=1 Send regression/GE.c:202 dest=20 stag=200{} {}	 Matched [20,3]
+23 o=148 i=23 rank=1 Send regression/GE.c:202 dest=21 stag=200{} {}	 Matched [21,3]
+24 o=149 i=24 rank=1 Send regression/GE.c:202 dest=22 stag=200{} {}	 Matched [22,3]
+25 o=150 i=25 rank=1 Send regression/GE.c:202 dest=23 stag=200{} {}	 Matched [23,3]
+26 o=151 i=26 rank=1 Send regression/GE.c:202 dest=24 stag=200{} {}	 Matched [24,3]
+27 o=152 i=27 rank=1 Send regression/GE.c:202 dest=25 stag=200{} {}	 Matched [25,3]
+28 o=153 i=28 rank=1 Send regression/GE.c:202 dest=26 stag=200{} {}	 Matched [26,3]
+29 o=154 i=29 rank=1 Send regression/GE.c:202 dest=27 stag=200{} {}	 Matched [27,3]
+30 o=155 i=30 rank=1 Send regression/GE.c:202 dest=28 stag=200{} {}	 Matched [28,3]
+31 o=156 i=31 rank=1 Send regression/GE.c:202 dest=29 stag=200{} {}	 Matched [29,3]
+32 o=157 i=32 rank=1 Send regression/GE.c:202 dest=30 stag=200{} {}	 Matched [30,3]
+33 o=158 i=33 rank=1 Send regression/GE.c:202 dest=31 stag=200{} {}	 Matched [31,2]
+34 o=159 i=34 rank=1 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 2
+0 o=3 i=0 rank=2 Barrier regression/GE.c:302 count=1{[2, 1]} {}
+1 o=35 i=1 rank=2 Barrier regression/GE.c:306 count=2{[2, 2]} {}
+2 o=67 i=2 rank=2 Recv regression/GE.c:208 src=-1 rtag=200{[2, 3]} {}	 Matched [0,3]
+3 o=161 i=3 rank=2 Recv regression/GE.c:208 src=-1 rtag=200{[2, 4]} {}	 Matched [1,4]
+4 o=162 i=4 rank=2 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 3
+0 o=4 i=0 rank=3 Barrier regression/GE.c:302 count=1{[3, 1]} {}
+1 o=36 i=1 rank=3 Barrier regression/GE.c:306 count=2{[3, 2]} {}
+2 o=68 i=2 rank=3 Recv regression/GE.c:208 src=-1 rtag=200{[3, 3]} {}	 Matched [0,4]
+3 o=163 i=3 rank=3 Recv regression/GE.c:208 src=-1 rtag=200{[3, 4]} {}	 Matched [1,5]
+4 o=164 i=4 rank=3 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 4
+0 o=5 i=0 rank=4 Barrier regression/GE.c:302 count=1{[4, 1]} {}
+1 o=37 i=1 rank=4 Barrier regression/GE.c:306 count=2{[4, 2]} {}
+2 o=69 i=2 rank=4 Recv regression/GE.c:208 src=-1 rtag=200{[4, 3]} {}	 Matched [0,5]
+3 o=165 i=3 rank=4 Recv regression/GE.c:208 src=-1 rtag=200{[4, 4]} {}	 Matched [1,6]
+4 o=166 i=4 rank=4 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 5
+0 o=6 i=0 rank=5 Barrier regression/GE.c:302 count=1{[5, 1]} {}
+1 o=38 i=1 rank=5 Barrier regression/GE.c:306 count=2{[5, 2]} {}
+2 o=70 i=2 rank=5 Recv regression/GE.c:208 src=-1 rtag=200{[5, 3]} {}	 Matched [0,6]
+3 o=167 i=3 rank=5 Recv regression/GE.c:208 src=-1 rtag=200{[5, 4]} {}	 Matched [1,7]
+4 o=168 i=4 rank=5 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 6
+0 o=7 i=0 rank=6 Barrier regression/GE.c:302 count=1{[6, 1]} {}
+1 o=39 i=1 rank=6 Barrier regression/GE.c:306 count=2{[6, 2]} {}
+2 o=71 i=2 rank=6 Recv regression/GE.c:208 src=-1 rtag=200{[6, 3]} {}	 Matched [0,7]
+3 o=169 i=3 rank=6 Recv regression/GE.c:208 src=-1 rtag=200{[6, 4]} {}	 Matched [1,8]
+4 o=170 i=4 rank=6 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 7
+0 o=8 i=0 rank=7 Barrier regression/GE.c:302 count=1{[7, 1]} {}
+1 o=40 i=1 rank=7 Barrier regression/GE.c:306 count=2{[7, 2]} {}
+2 o=72 i=2 rank=7 Recv regression/GE.c:208 src=-1 rtag=200{[7, 3]} {}	 Matched [0,8]
+3 o=171 i=3 rank=7 Recv regression/GE.c:208 src=-1 rtag=200{[7, 4]} {}	 Matched [1,9]
+4 o=172 i=4 rank=7 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 8
+0 o=9 i=0 rank=8 Barrier regression/GE.c:302 count=1{[8, 1]} {}
+1 o=41 i=1 rank=8 Barrier regression/GE.c:306 count=2{[8, 2]} {}
+2 o=73 i=2 rank=8 Recv regression/GE.c:208 src=-1 rtag=200{[8, 3]} {}	 Matched [0,9]
+3 o=173 i=3 rank=8 Recv regression/GE.c:208 src=-1 rtag=200{[8, 4]} {}	 Matched [1,10]
+4 o=174 i=4 rank=8 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 9
+0 o=10 i=0 rank=9 Barrier regression/GE.c:302 count=1{[9, 1]} {}
+1 o=42 i=1 rank=9 Barrier regression/GE.c:306 count=2{[9, 2]} {}
+2 o=74 i=2 rank=9 Recv regression/GE.c:208 src=-1 rtag=200{[9, 3]} {}	 Matched [0,10]
+3 o=175 i=3 rank=9 Recv regression/GE.c:208 src=-1 rtag=200{[9, 4]} {}	 Matched [1,11]
+4 o=176 i=4 rank=9 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 10
+0 o=11 i=0 rank=10 Barrier regression/GE.c:302 count=1{[10, 1]} {}
+1 o=43 i=1 rank=10 Barrier regression/GE.c:306 count=2{[10, 2]} {}
+2 o=75 i=2 rank=10 Recv regression/GE.c:208 src=-1 rtag=200{[10, 3]} {}	 Matched [0,11]
+3 o=177 i=3 rank=10 Recv regression/GE.c:208 src=-1 rtag=200{[10, 4]} {}	 Matched [1,12]
+4 o=178 i=4 rank=10 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 11
+0 o=12 i=0 rank=11 Barrier regression/GE.c:302 count=1{[11, 1]} {}
+1 o=44 i=1 rank=11 Barrier regression/GE.c:306 count=2{[11, 2]} {}
+2 o=76 i=2 rank=11 Recv regression/GE.c:208 src=-1 rtag=200{[11, 3]} {}	 Matched [0,12]
+3 o=179 i=3 rank=11 Recv regression/GE.c:208 src=-1 rtag=200{[11, 4]} {}	 Matched [1,13]
+4 o=180 i=4 rank=11 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 12
+0 o=13 i=0 rank=12 Barrier regression/GE.c:302 count=1{[12, 1]} {}
+1 o=45 i=1 rank=12 Barrier regression/GE.c:306 count=2{[12, 2]} {}
+2 o=77 i=2 rank=12 Recv regression/GE.c:208 src=-1 rtag=200{[12, 3]} {}	 Matched [0,13]
+3 o=181 i=3 rank=12 Recv regression/GE.c:208 src=-1 rtag=200{[12, 4]} {}	 Matched [1,14]
+4 o=182 i=4 rank=12 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 13
+0 o=14 i=0 rank=13 Barrier regression/GE.c:302 count=1{[13, 1]} {}
+1 o=46 i=1 rank=13 Barrier regression/GE.c:306 count=2{[13, 2]} {}
+2 o=78 i=2 rank=13 Recv regression/GE.c:208 src=-1 rtag=200{[13, 3]} {}	 Matched [0,14]
+3 o=183 i=3 rank=13 Recv regression/GE.c:208 src=-1 rtag=200{[13, 4]} {}	 Matched [1,15]
+4 o=184 i=4 rank=13 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 14
+0 o=15 i=0 rank=14 Barrier regression/GE.c:302 count=1{[14, 1]} {}
+1 o=47 i=1 rank=14 Barrier regression/GE.c:306 count=2{[14, 2]} {}
+2 o=79 i=2 rank=14 Recv regression/GE.c:208 src=-1 rtag=200{[14, 3]} {}	 Matched [0,15]
+3 o=185 i=3 rank=14 Recv regression/GE.c:208 src=-1 rtag=200{[14, 4]} {}	 Matched [1,16]
+4 o=186 i=4 rank=14 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 15
+0 o=16 i=0 rank=15 Barrier regression/GE.c:302 count=1{[15, 1]} {}
+1 o=48 i=1 rank=15 Barrier regression/GE.c:306 count=2{[15, 2]} {}
+2 o=80 i=2 rank=15 Recv regression/GE.c:208 src=-1 rtag=200{[15, 3]} {}	 Matched [0,16]
+3 o=187 i=3 rank=15 Recv regression/GE.c:208 src=-1 rtag=200{[15, 4]} {}	 Matched [1,17]
+4 o=188 i=4 rank=15 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 16
+0 o=17 i=0 rank=16 Barrier regression/GE.c:302 count=1{[16, 1]} {}
+1 o=49 i=1 rank=16 Barrier regression/GE.c:306 count=2{[16, 2]} {}
+2 o=81 i=2 rank=16 Recv regression/GE.c:208 src=-1 rtag=200{[16, 3]} {}	 Matched [0,17]
+3 o=189 i=3 rank=16 Recv regression/GE.c:208 src=-1 rtag=200{[16, 4]} {}	 Matched [1,18]
+4 o=190 i=4 rank=16 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 17
+0 o=18 i=0 rank=17 Barrier regression/GE.c:302 count=1{[17, 1]} {}
+1 o=50 i=1 rank=17 Barrier regression/GE.c:306 count=2{[17, 2]} {}
+2 o=82 i=2 rank=17 Recv regression/GE.c:208 src=-1 rtag=200{[17, 3]} {}	 Matched [0,18]
+3 o=191 i=3 rank=17 Recv regression/GE.c:208 src=-1 rtag=200{[17, 4]} {}	 Matched [1,19]
+4 o=192 i=4 rank=17 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 18
+0 o=19 i=0 rank=18 Barrier regression/GE.c:302 count=1{[18, 1]} {}
+1 o=51 i=1 rank=18 Barrier regression/GE.c:306 count=2{[18, 2]} {}
+2 o=83 i=2 rank=18 Recv regression/GE.c:208 src=-1 rtag=200{[18, 3]} {}	 Matched [0,19]
+3 o=193 i=3 rank=18 Recv regression/GE.c:208 src=-1 rtag=200{[18, 4]} {}	 Matched [1,20]
+4 o=194 i=4 rank=18 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 19
+0 o=20 i=0 rank=19 Barrier regression/GE.c:302 count=1{[19, 1]} {}
+1 o=52 i=1 rank=19 Barrier regression/GE.c:306 count=2{[19, 2]} {}
+2 o=84 i=2 rank=19 Recv regression/GE.c:208 src=-1 rtag=200{[19, 3]} {}	 Matched [0,20]
+3 o=195 i=3 rank=19 Recv regression/GE.c:208 src=-1 rtag=200{[19, 4]} {}	 Matched [1,21]
+4 o=196 i=4 rank=19 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 20
+0 o=21 i=0 rank=20 Barrier regression/GE.c:302 count=1{[20, 1]} {}
+1 o=53 i=1 rank=20 Barrier regression/GE.c:306 count=2{[20, 2]} {}
+2 o=85 i=2 rank=20 Recv regression/GE.c:208 src=-1 rtag=200{[20, 3]} {}	 Matched [0,21]
+3 o=197 i=3 rank=20 Recv regression/GE.c:208 src=-1 rtag=200{[20, 4]} {}	 Matched [1,22]
+4 o=198 i=4 rank=20 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 21
+0 o=22 i=0 rank=21 Barrier regression/GE.c:302 count=1{[21, 1]} {}
+1 o=54 i=1 rank=21 Barrier regression/GE.c:306 count=2{[21, 2]} {}
+2 o=86 i=2 rank=21 Recv regression/GE.c:208 src=-1 rtag=200{[21, 3]} {}	 Matched [0,22]
+3 o=199 i=3 rank=21 Recv regression/GE.c:208 src=-1 rtag=200{[21, 4]} {}	 Matched [1,23]
+4 o=200 i=4 rank=21 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 22
+0 o=23 i=0 rank=22 Barrier regression/GE.c:302 count=1{[22, 1]} {}
+1 o=55 i=1 rank=22 Barrier regression/GE.c:306 count=2{[22, 2]} {}
+2 o=87 i=2 rank=22 Recv regression/GE.c:208 src=-1 rtag=200{[22, 3]} {}	 Matched [0,23]
+3 o=201 i=3 rank=22 Recv regression/GE.c:208 src=-1 rtag=200{[22, 4]} {}	 Matched [1,24]
+4 o=202 i=4 rank=22 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 23
+0 o=24 i=0 rank=23 Barrier regression/GE.c:302 count=1{[23, 1]} {}
+1 o=56 i=1 rank=23 Barrier regression/GE.c:306 count=2{[23, 2]} {}
+2 o=88 i=2 rank=23 Recv regression/GE.c:208 src=-1 rtag=200{[23, 3]} {}	 Matched [0,24]
+3 o=203 i=3 rank=23 Recv regression/GE.c:208 src=-1 rtag=200{[23, 4]} {}	 Matched [1,25]
+4 o=204 i=4 rank=23 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 24
+0 o=25 i=0 rank=24 Barrier regression/GE.c:302 count=1{[24, 1]} {}
+1 o=57 i=1 rank=24 Barrier regression/GE.c:306 count=2{[24, 2]} {}
+2 o=89 i=2 rank=24 Recv regression/GE.c:208 src=-1 rtag=200{[24, 3]} {}	 Matched [0,25]
+3 o=205 i=3 rank=24 Recv regression/GE.c:208 src=-1 rtag=200{[24, 4]} {}	 Matched [1,26]
+4 o=206 i=4 rank=24 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 25
+0 o=26 i=0 rank=25 Barrier regression/GE.c:302 count=1{[25, 1]} {}
+1 o=58 i=1 rank=25 Barrier regression/GE.c:306 count=2{[25, 2]} {}
+2 o=90 i=2 rank=25 Recv regression/GE.c:208 src=-1 rtag=200{[25, 3]} {}	 Matched [0,26]
+3 o=207 i=3 rank=25 Recv regression/GE.c:208 src=-1 rtag=200{[25, 4]} {}	 Matched [1,27]
+4 o=208 i=4 rank=25 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 26
+0 o=27 i=0 rank=26 Barrier regression/GE.c:302 count=1{[26, 1]} {}
+1 o=59 i=1 rank=26 Barrier regression/GE.c:306 count=2{[26, 2]} {}
+2 o=91 i=2 rank=26 Recv regression/GE.c:208 src=-1 rtag=200{[26, 3]} {}	 Matched [0,27]
+3 o=209 i=3 rank=26 Recv regression/GE.c:208 src=-1 rtag=200{[26, 4]} {}	 Matched [1,28]
+4 o=210 i=4 rank=26 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 27
+0 o=28 i=0 rank=27 Barrier regression/GE.c:302 count=1{[27, 1]} {}
+1 o=60 i=1 rank=27 Barrier regression/GE.c:306 count=2{[27, 2]} {}
+2 o=92 i=2 rank=27 Recv regression/GE.c:208 src=-1 rtag=200{[27, 3]} {}	 Matched [0,28]
+3 o=211 i=3 rank=27 Recv regression/GE.c:208 src=-1 rtag=200{[27, 4]} {}	 Matched [1,29]
+4 o=212 i=4 rank=27 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 28
+0 o=29 i=0 rank=28 Barrier regression/GE.c:302 count=1{[28, 1]} {}
+1 o=61 i=1 rank=28 Barrier regression/GE.c:306 count=2{[28, 2]} {}
+2 o=93 i=2 rank=28 Recv regression/GE.c:208 src=-1 rtag=200{[28, 3]} {}	 Matched [0,29]
+3 o=213 i=3 rank=28 Recv regression/GE.c:208 src=-1 rtag=200{[28, 4]} {}	 Matched [1,30]
+4 o=214 i=4 rank=28 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 29
+0 o=30 i=0 rank=29 Barrier regression/GE.c:302 count=1{[29, 1]} {}
+1 o=62 i=1 rank=29 Barrier regression/GE.c:306 count=2{[29, 2]} {}
+2 o=94 i=2 rank=29 Recv regression/GE.c:208 src=-1 rtag=200{[29, 3]} {}	 Matched [0,30]
+3 o=215 i=3 rank=29 Recv regression/GE.c:208 src=-1 rtag=200{[29, 4]} {}	 Matched [1,31]
+4 o=216 i=4 rank=29 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 30
+0 o=31 i=0 rank=30 Barrier regression/GE.c:302 count=1{[30, 1]} {}
+1 o=63 i=1 rank=30 Barrier regression/GE.c:306 count=2{[30, 2]} {}
+2 o=95 i=2 rank=30 Recv regression/GE.c:208 src=-1 rtag=200{[30, 3]} {}	 Matched [0,31]
+3 o=217 i=3 rank=30 Recv regression/GE.c:208 src=-1 rtag=200{[30, 4]} {}	 Matched [1,32]
+4 o=218 i=4 rank=30 Barrier regression/GE.c:243 count=3{} {}
+
+Transition list for 31
+0 o=32 i=0 rank=31 Barrier regression/GE.c:302 count=1{[31, 1]} {}
+1 o=64 i=1 rank=31 Barrier regression/GE.c:306 count=2{[31, 2]} {}
+2 o=96 i=2 rank=31 Recv regression/GE.c:208 src=-1 rtag=200{[31, 3]} {}	 Matched [1,33]
+3 o=599 i=3 rank=31 Recv regression/GE.c:208 src=-1 rtag=200{} {}	 Matched [0,32]
+
+Receiving empty buffer - Terminating ...

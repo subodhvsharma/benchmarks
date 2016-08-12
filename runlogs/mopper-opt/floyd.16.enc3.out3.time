@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 1200s ../../mopper-dir/bin/isp -p 8888 -D T --minisat -E 2 -n 16 ./regression/floyd.pred 8
+real 1.65
+user 1.79
+sys 0.06

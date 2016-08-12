@@ -1,0 +1,15 @@
+-----------------------------------------
+Executing the FM encoding
+(1) Finished normally
+(3) Finished normally
+(0) Finished normally
+(4) Finished normally
+(2) Finished normally
+********* SAT VALUATIONS ************
+Number of Clauses: 708
+Number of Variables: 256
+Constraint Generation Time: 0.00072sec 
+Solving Time: 0.000548sec 
+Mem (MB): 8.45312
+Formula is UNSAT
+

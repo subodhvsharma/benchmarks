@@ -1,0 +1,27 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/different_tags.exe 
+Number Procs:   3
+Server:         localhost:10081
+Blocking Sends: Enabled
+-----------------------------------------
+Started Process: 20873
+INTERLEAVING :1
+Started Process: 20878
+Process 0 finished successfully 
+Process 1 finished successfully 
+Process 2 finished successfully 
+INTERLEAVING :2
+Process 0 finished successfully 
+Process 2 finished successfully 
+Started Process: 20883
+Process 1 finished successfully 
+INTERLEAVING :3
+Process 0 finished successfully 
+Process 2 finished successfully 
+Process 1 finished successfully 
+-----------------------------------------
+ISP detected no deadlocks!
+Total Explored Interleavings: 3
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

@@ -1,0 +1,10 @@
+-----------------------------------------
+Executing the FM encoding
+********* SAT VALUATIONS ************
+Number of Clauses: 3887
+Number of Variables: 1300
+Constraint Generation Time: 0.002741sec 
+Solving Time: 0.003452sec 
+Mem (MB): 7.9375
+Formula is UNSAT
+

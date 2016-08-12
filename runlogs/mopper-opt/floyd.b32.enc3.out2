@@ -1,0 +1,10 @@
+-----------------------------------------
+Executing the MultiReceives encoding
+********* SAT VALUATIONS ************
+Number of Clauses: 131180
+Number of Variables: 41202
+Constraint Generation Time: 0.154337sec 
+Solving Time: 0.155099sec 
+Mem (MB): 60.2969
+Formula is UNSAT
+

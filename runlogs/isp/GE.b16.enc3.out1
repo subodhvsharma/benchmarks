@@ -1,0 +1,14 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/GE.exe 
+Number Procs:   16
+Server:         localhost:10036
+Blocking Sends: Enabled
+-----------------------------------------
+Started Process: 8741
+INTERLEAVING :1
+-----------------------------------------
+ISP detected no deadlocks!
+Total Explored Interleavings: 1
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

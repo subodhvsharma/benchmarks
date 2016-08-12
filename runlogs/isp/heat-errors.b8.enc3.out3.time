@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 3600s /users/joshi/mopper/isp/isp-dir/bin/isp -p 10141 -z T -n 8 -b /users/joshi/mopper/benchmarks/isp-pred-tests/regression/heat-errors.exe
+real 3600.01
+user 2441.52
+sys 141.02

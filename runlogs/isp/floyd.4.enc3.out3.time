@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 3600s /users/joshi/mopper/isp/isp-dir/bin/isp -p 10160 -z T -n 4 /users/joshi/mopper/benchmarks/isp-pred-tests/regression/floyd.exe 8
+real 3600.00
+user 1599.76
+sys 147.73

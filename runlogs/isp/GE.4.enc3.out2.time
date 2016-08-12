@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 3600s /users/joshi/mopper/isp/isp-dir/bin/isp -p 10095 -z T -n 4 /users/joshi/mopper/benchmarks/isp-pred-tests/regression/GE.exe
+real 21.62
+user 24.61
+sys 18.74

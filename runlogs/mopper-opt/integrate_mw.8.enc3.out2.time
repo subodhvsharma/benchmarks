@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 1200s ../../mopper-dir/bin/isp -p 8888 -D T --minisat -E 2 -n 8 ./regression/integrate_mw.pred
+real 0.31
+user 0.29
+sys 0.02

@@ -1,0 +1,47 @@
+-----------------------------------------
+(0) Finished normally
+(2) Finished normally
+(1) Finished normally
+(3) Finished normally
+(4) Finished normally
+Executing the FM encoding
+********* SAT VALUATIONS ************
+Number of Clauses: 755
+Number of Variables: 270
+Constraint Generation Time: 0.000637sec 
+Solving Time: 0.000928sec 
+Mem (MB): 8.45312
+Formula is SAT -- DEADLOCK DETECTED
+M_00:1
+I_00:1
+M_01:0
+I_01:1
+M_02:0
+I_02:0
+M_10:0
+I_10:1
+M_11:0
+I_11:0
+M_20:1
+I_20:1
+M_21:1
+I_21:1
+M_30:0
+I_30:1
+M_31:0
+I_31:0
+M_40:1
+I_40:1
+S_2102:0
+S_0131:0
+S_4020:1
+S_1130:0
+S_1002:0
+S_2100:1
+S_1000:0
+
+(0) Finished normally
+(1) Finished normally
+(3) Finished normally
+(4) Finished normally
+(2) Finished normally

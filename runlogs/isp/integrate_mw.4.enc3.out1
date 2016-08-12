@@ -1,0 +1,24 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/integrate_mw.exe 
+Number Procs:   4
+Server:         localhost:11001
+Blocking Sends: Disabled
+-----------------------------------------
+Started Process: 31343
+INTERLEAVING :1
+Started Process: 31349
+INTERLEAVING :2
+Started Process: 31355
+INTERLEAVING :3
+Started Process: 31361
+INTERLEAVING :4
+Started Process: 31367
+INTERLEAVING :5
+Started Process: 31373
+INTERLEAVING :6
+-----------------------------------------
+ISP detected no deadlocks!
+Total Explored Interleavings: 6
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

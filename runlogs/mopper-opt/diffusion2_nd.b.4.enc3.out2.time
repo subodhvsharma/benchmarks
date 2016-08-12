@@ -1,0 +1,8 @@
++ timeout --foreground -k 1s 1200s ../../mopper-dir/bin/isp -p 8888 -D T --minisat -E 2 -n 4 -b ./regression/diffusion2_nd.pred
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+real 0.02
+user 0.00
+sys 0.02

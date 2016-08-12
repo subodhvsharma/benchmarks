@@ -1,0 +1,33 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/dtg.exe 
+Number Procs:   5
+Server:         localhost:10190
+Blocking Sends: Disabled
+-----------------------------------------
+Started Process: 10841
+INTERLEAVING :1
+(1) Finished normally
+(0) Finished normally
+Started Process: 10848
+(2) Finished normally
+(4) Finished normally
+(3) Finished normally
+INTERLEAVING :2
+Started Process: 10855
+(1) Finished normally
+(2) Finished normally
+(3) Finished normally
+(4) Finished normally
+(0) Finished normally
+INTERLEAVING :3
+(1) Finished normally
+(0) Finished normally
+(3) Finished normally
+(2) Finished normally
+(4) Finished normally
+-----------------------------------------
+ISP detected no deadlocks!
+Total Explored Interleavings: 3
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

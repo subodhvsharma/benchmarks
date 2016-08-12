@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 3600s /users/joshi/mopper/isp/isp-dir/bin/isp -p 10225 -z T -n 8 /users/joshi/mopper/benchmarks/isp-pred-tests/regression/diffusion2_nd_8.exe
+real 3600.00
+user 2409.38
+sys 107.22

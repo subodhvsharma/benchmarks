@@ -1,0 +1,15 @@
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/TCP-gamma' to '4194304'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/send-is-detached-thresh' to '65536'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatize-global-variables' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'model-check/max-depth' to '100000'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/TCP-gamma' to '4194304'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/send-is-detached-thresh' to '65536'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatize-global-variables' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'model-check/max-depth' to '100000'
+[0.000000] [mc_safety/INFO] Check a safety property
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/running-power:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+timeout: the monitored command dumped core

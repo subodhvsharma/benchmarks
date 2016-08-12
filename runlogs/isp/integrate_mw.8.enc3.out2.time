@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 3600s /users/joshi/mopper/isp/isp-dir/bin/isp -p 10112 -z T -n 8 /users/joshi/mopper/benchmarks/isp-pred-tests/regression/integrate_mw.exe
+real 1331.32
+user 1618.89
+sys 89.80

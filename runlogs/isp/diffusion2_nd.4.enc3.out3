@@ -1,0 +1,192 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/diffusion2_nd.exe 
+Number Procs:   4
+Server:         localhost:10166
+Blocking Sends: Disabled
+-----------------------------------------
+Started Process: 28799
+INTERLEAVING :1
+Started Process: 28805
+INTERLEAVING :2
+Started Process: 28811
+INTERLEAVING :3
+Started Process: 28817
+INTERLEAVING :4
+Started Process: 28823
+INTERLEAVING :5
+Started Process: 28829
+INTERLEAVING :6
+Started Process: 28835
+INTERLEAVING :7
+Started Process: 28841
+INTERLEAVING :8
+Started Process: 28853
+INTERLEAVING :9
+Started Process: 28859
+INTERLEAVING :10
+Started Process: 28865
+INTERLEAVING :11
+Started Process: 28871
+INTERLEAVING :12
+Started Process: 28877
+INTERLEAVING :13
+Started Process: 28883
+INTERLEAVING :14
+Started Process: 28889
+INTERLEAVING :15
+Started Process: 28895
+INTERLEAVING :16
+Started Process: 28901
+INTERLEAVING :17
+Started Process: 28907
+INTERLEAVING :18
+Started Process: 28913
+INTERLEAVING :19
+Started Process: 28919
+INTERLEAVING :20
+Started Process: 28925
+INTERLEAVING :21
+Started Process: 28931
+INTERLEAVING :22
+Started Process: 28937
+INTERLEAVING :23
+Started Process: 28943
+INTERLEAVING :24
+Started Process: 28949
+INTERLEAVING :25
+Started Process: 28956
+INTERLEAVING :26
+Started Process: 28964
+INTERLEAVING :27
+Started Process: 28970
+INTERLEAVING :28
+Started Process: 28976
+INTERLEAVING :29
+Started Process: 28982
+INTERLEAVING :30
+Started Process: 28988
+INTERLEAVING :31
+Started Process: 28994
+INTERLEAVING :32
+Started Process: 29000
+INTERLEAVING :33
+Started Process: 29006
+INTERLEAVING :34
+Started Process: 29012
+INTERLEAVING :35
+Started Process: 29018
+INTERLEAVING :36
+Started Process: 29024
+INTERLEAVING :37
+Started Process: 29030
+INTERLEAVING :38
+Started Process: 29036
+INTERLEAVING :39
+Started Process: 29042
+INTERLEAVING :40
+Started Process: 29048
+INTERLEAVING :41
+Started Process: 29054
+INTERLEAVING :42
+Started Process: 29060
+INTERLEAVING :43
+Started Process: 29066
+INTERLEAVING :44
+Started Process: 29072
+INTERLEAVING :45
+Started Process: 29078
+INTERLEAVING :46
+Started Process: 29084
+INTERLEAVING :47
+Started Process: 29090
+INTERLEAVING :48
+Started Process: 29096
+INTERLEAVING :49
+Started Process: 29102
+INTERLEAVING :50
+Started Process: 29108
+INTERLEAVING :51
+Started Process: 29114
+INTERLEAVING :52
+Started Process: 29120
+INTERLEAVING :53
+Started Process: 29126
+INTERLEAVING :54
+Started Process: 29132
+INTERLEAVING :55
+Started Process: 29138
+INTERLEAVING :56
+Started Process: 29144
+INTERLEAVING :57
+Started Process: 29150
+INTERLEAVING :58
+Started Process: 29156
+INTERLEAVING :59
+Started Process: 29162
+INTERLEAVING :60
+Started Process: 29168
+INTERLEAVING :61
+Started Process: 29174
+INTERLEAVING :62
+Started Process: 29180
+INTERLEAVING :63
+Started Process: 29186
+INTERLEAVING :64
+Started Process: 29192
+INTERLEAVING :65
+Started Process: 29198
+INTERLEAVING :66
+Started Process: 29204
+INTERLEAVING :67
+Started Process: 29210
+INTERLEAVING :68
+Started Process: 29216
+INTERLEAVING :69
+Started Process: 29222
+INTERLEAVING :70
+Started Process: 29228
+INTERLEAVING :71
+Started Process: 29234
+INTERLEAVING :72
+Started Process: 29240
+INTERLEAVING :73
+Started Process: 29246
+INTERLEAVING :74
+Started Process: 29252
+INTERLEAVING :75
+Started Process: 29258
+INTERLEAVING :76
+Started Process: 29264
+INTERLEAVING :77
+Started Process: 29270
+INTERLEAVING :78
+Started Process: 29276
+INTERLEAVING :79
+Started Process: 29282
+INTERLEAVING :80
+Started Process: 29288
+INTERLEAVING :81
+Started Process: 29294
+INTERLEAVING :82
+Started Process: 29300
+INTERLEAVING :83
+Started Process: 29306
+INTERLEAVING :84
+Started Process: 29312
+INTERLEAVING :85
+Started Process: 29318
+INTERLEAVING :86
+Started Process: 29324
+INTERLEAVING :87
+Started Process: 29330
+INTERLEAVING :88
+Started Process: 29336
+INTERLEAVING :89
+Started Process: 29342
+INTERLEAVING :90
+-----------------------------------------
+ISP detected no deadlocks!
+Total Explored Interleavings: 90
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

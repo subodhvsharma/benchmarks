@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 1200s ../../mopper-dir/bin/isp -p 8888 -D T --minisat -E 0 -n 4 ./regression/diffusion2_nd.pred
+real 0.39
+user 0.11
+sys 0.01

@@ -1,0 +1,372 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/GE.exe 
+Number Procs:   4
+Server:         localhost:10152
+Blocking Sends: Disabled
+-----------------------------------------
+Started Process: 13071
+INTERLEAVING :1
+Started Process: 13077
+INTERLEAVING :2
+Started Process: 13083
+INTERLEAVING :3
+Started Process: 13089
+INTERLEAVING :4
+Started Process: 13095
+INTERLEAVING :5
+Started Process: 13101
+INTERLEAVING :6
+Started Process: 13107
+INTERLEAVING :7
+Started Process: 13113
+INTERLEAVING :8
+Started Process: 13119
+INTERLEAVING :9
+Started Process: 13125
+INTERLEAVING :10
+Started Process: 13131
+INTERLEAVING :11
+Started Process: 13137
+INTERLEAVING :12
+Started Process: 13143
+INTERLEAVING :13
+Started Process: 13149
+INTERLEAVING :14
+Started Process: 13155
+INTERLEAVING :15
+Started Process: 13161
+INTERLEAVING :16
+Started Process: 13167
+INTERLEAVING :17
+Started Process: 13173
+INTERLEAVING :18
+Started Process: 13179
+INTERLEAVING :19
+Started Process: 13185
+INTERLEAVING :20
+Started Process: 13191
+INTERLEAVING :21
+Started Process: 13197
+INTERLEAVING :22
+Started Process: 13203
+INTERLEAVING :23
+Started Process: 13209
+INTERLEAVING :24
+Started Process: 13215
+INTERLEAVING :25
+Started Process: 13221
+INTERLEAVING :26
+Started Process: 13227
+INTERLEAVING :27
+Started Process: 13233
+INTERLEAVING :28
+Started Process: 13239
+INTERLEAVING :29
+Started Process: 13245
+INTERLEAVING :30
+Started Process: 13251
+INTERLEAVING :31
+Started Process: 13257
+INTERLEAVING :32
+Started Process: 13263
+INTERLEAVING :33
+Started Process: 13269
+INTERLEAVING :34
+Started Process: 13275
+INTERLEAVING :35
+Started Process: 13281
+INTERLEAVING :36
+Started Process: 13287
+INTERLEAVING :37
+Started Process: 13293
+INTERLEAVING :38
+Started Process: 13299
+INTERLEAVING :39
+Started Process: 13305
+INTERLEAVING :40
+Started Process: 13311
+INTERLEAVING :41
+Started Process: 13317
+INTERLEAVING :42
+Started Process: 13323
+INTERLEAVING :43
+Started Process: 13329
+INTERLEAVING :44
+Started Process: 13335
+INTERLEAVING :45
+Started Process: 13341
+INTERLEAVING :46
+Started Process: 13347
+INTERLEAVING :47
+Started Process: 13353
+INTERLEAVING :48
+Started Process: 13359
+INTERLEAVING :49
+Started Process: 13365
+INTERLEAVING :50
+Started Process: 13371
+INTERLEAVING :51
+Started Process: 13377
+INTERLEAVING :52
+Started Process: 13383
+INTERLEAVING :53
+Started Process: 13389
+INTERLEAVING :54
+Started Process: 13395
+INTERLEAVING :55
+Started Process: 13401
+INTERLEAVING :56
+Started Process: 13407
+INTERLEAVING :57
+Started Process: 13413
+INTERLEAVING :58
+Started Process: 13419
+INTERLEAVING :59
+Started Process: 13425
+INTERLEAVING :60
+Started Process: 13431
+INTERLEAVING :61
+Started Process: 13437
+INTERLEAVING :62
+Started Process: 13443
+INTERLEAVING :63
+Started Process: 13449
+INTERLEAVING :64
+Started Process: 13455
+INTERLEAVING :65
+Started Process: 13461
+INTERLEAVING :66
+Started Process: 13467
+INTERLEAVING :67
+Started Process: 13473
+INTERLEAVING :68
+Started Process: 13479
+INTERLEAVING :69
+Started Process: 13485
+INTERLEAVING :70
+Started Process: 13491
+INTERLEAVING :71
+Started Process: 13497
+INTERLEAVING :72
+Started Process: 13503
+INTERLEAVING :73
+Started Process: 13509
+INTERLEAVING :74
+Started Process: 13515
+INTERLEAVING :75
+Started Process: 13521
+INTERLEAVING :76
+Started Process: 13527
+INTERLEAVING :77
+Started Process: 13533
+INTERLEAVING :78
+Started Process: 13539
+INTERLEAVING :79
+Started Process: 13545
+INTERLEAVING :80
+Started Process: 13551
+INTERLEAVING :81
+Started Process: 13557
+INTERLEAVING :82
+Started Process: 13563
+INTERLEAVING :83
+Started Process: 13569
+INTERLEAVING :84
+Started Process: 13575
+INTERLEAVING :85
+Started Process: 13581
+INTERLEAVING :86
+Started Process: 13587
+INTERLEAVING :87
+Started Process: 13593
+INTERLEAVING :88
+Started Process: 13599
+INTERLEAVING :89
+Started Process: 13605
+INTERLEAVING :90
+Started Process: 13611
+INTERLEAVING :91
+Started Process: 13617
+INTERLEAVING :92
+Started Process: 13623
+INTERLEAVING :93
+Started Process: 13629
+INTERLEAVING :94
+Started Process: 13635
+INTERLEAVING :95
+Started Process: 13641
+INTERLEAVING :96
+Started Process: 13647
+INTERLEAVING :97
+Started Process: 13653
+INTERLEAVING :98
+Started Process: 13659
+INTERLEAVING :99
+Started Process: 13665
+INTERLEAVING :100
+Started Process: 13671
+INTERLEAVING :101
+Started Process: 13677
+INTERLEAVING :102
+Started Process: 13683
+INTERLEAVING :103
+Started Process: 13689
+INTERLEAVING :104
+Started Process: 13695
+INTERLEAVING :105
+Started Process: 13701
+INTERLEAVING :106
+Started Process: 13707
+INTERLEAVING :107
+Started Process: 13713
+INTERLEAVING :108
+Started Process: 13719
+INTERLEAVING :109
+Started Process: 13725
+INTERLEAVING :110
+Started Process: 13731
+INTERLEAVING :111
+Started Process: 13737
+INTERLEAVING :112
+Started Process: 13743
+INTERLEAVING :113
+Started Process: 13749
+INTERLEAVING :114
+Started Process: 13755
+INTERLEAVING :115
+Started Process: 13761
+INTERLEAVING :116
+Started Process: 13767
+INTERLEAVING :117
+Started Process: 13773
+INTERLEAVING :118
+Started Process: 13779
+INTERLEAVING :119
+Started Process: 13785
+INTERLEAVING :120
+Started Process: 13791
+INTERLEAVING :121
+Started Process: 13797
+INTERLEAVING :122
+Started Process: 13803
+INTERLEAVING :123
+Started Process: 13809
+INTERLEAVING :124
+Started Process: 13815
+INTERLEAVING :125
+Started Process: 13821
+INTERLEAVING :126
+Started Process: 13827
+INTERLEAVING :127
+Started Process: 13833
+INTERLEAVING :128
+Started Process: 13839
+INTERLEAVING :129
+Started Process: 13845
+INTERLEAVING :130
+Started Process: 13851
+INTERLEAVING :131
+Started Process: 13857
+INTERLEAVING :132
+Started Process: 13863
+INTERLEAVING :133
+Started Process: 13869
+INTERLEAVING :134
+Started Process: 13875
+INTERLEAVING :135
+Started Process: 13881
+INTERLEAVING :136
+Started Process: 13887
+INTERLEAVING :137
+Started Process: 13893
+INTERLEAVING :138
+Started Process: 13899
+INTERLEAVING :139
+Started Process: 13905
+INTERLEAVING :140
+Started Process: 13911
+INTERLEAVING :141
+Started Process: 13917
+INTERLEAVING :142
+Started Process: 13923
+INTERLEAVING :143
+Started Process: 13929
+INTERLEAVING :144
+Started Process: 13935
+INTERLEAVING :145
+Started Process: 13941
+INTERLEAVING :146
+Started Process: 13947
+INTERLEAVING :147
+Started Process: 13953
+INTERLEAVING :148
+Started Process: 13959
+INTERLEAVING :149
+Started Process: 13965
+INTERLEAVING :150
+Started Process: 13971
+INTERLEAVING :151
+Started Process: 13977
+INTERLEAVING :152
+Started Process: 13983
+INTERLEAVING :153
+Started Process: 13989
+INTERLEAVING :154
+Started Process: 13995
+INTERLEAVING :155
+Started Process: 14001
+INTERLEAVING :156
+Started Process: 14007
+INTERLEAVING :157
+Started Process: 14013
+INTERLEAVING :158
+Started Process: 14019
+INTERLEAVING :159
+Started Process: 14025
+INTERLEAVING :160
+Started Process: 14031
+INTERLEAVING :161
+Started Process: 14037
+INTERLEAVING :162
+Started Process: 14043
+INTERLEAVING :163
+Started Process: 14049
+INTERLEAVING :164
+Started Process: 14055
+INTERLEAVING :165
+Started Process: 14061
+INTERLEAVING :166
+Started Process: 14067
+INTERLEAVING :167
+Started Process: 14073
+INTERLEAVING :168
+Started Process: 14079
+INTERLEAVING :169
+Started Process: 14085
+INTERLEAVING :170
+Started Process: 14091
+INTERLEAVING :171
+Started Process: 14097
+INTERLEAVING :172
+Started Process: 14103
+INTERLEAVING :173
+Started Process: 14109
+INTERLEAVING :174
+Started Process: 14115
+INTERLEAVING :175
+Started Process: 14121
+INTERLEAVING :176
+Started Process: 14127
+INTERLEAVING :177
+Started Process: 14133
+INTERLEAVING :178
+Started Process: 14139
+INTERLEAVING :179
+Started Process: 14145
+INTERLEAVING :180
+-----------------------------------------
+ISP detected no deadlocks!
+Total Explored Interleavings: 180
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

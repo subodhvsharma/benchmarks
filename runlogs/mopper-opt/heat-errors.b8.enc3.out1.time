@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 1200s ../../mopper-dir/bin/isp -p 8888 -D T --minisat -E 2 -n 8 -b ./regression/heat-errors.pred
+real 0.79
+user 0.49
+sys 0.03

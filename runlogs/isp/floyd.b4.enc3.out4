@@ -1,0 +1,16 @@
+ISP - Insitu Partial Order
+-----------------------------------------
+Command:        /users/joshi/mopper/benchmarks/isp-pred-tests/regression/floyd.exe 8 
+Number Procs:   4
+Server:         localhost:10213
+Blocking Sends: Enabled
+-----------------------------------------
+Started Process: 28824
+INTERLEAVING :1
+Started Process: 28830
+INTERLEAVING :2
+-----------------------------------------
+ISP detected no deadlocks!
+Total Explored Interleavings: 2
+Interleaving Exploration Mode: All Relevant Interleavings
+-----------------------------------------

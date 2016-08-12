@@ -1,0 +1,4 @@
++ timeout --foreground -k 1s 1200s ../../mopper-dir/bin/isp -p 8888 -D T --minisat -E 0 -n 32 -b ./regression/GE.pred
+real 2.91
+user 11.80
+sys 0.56
